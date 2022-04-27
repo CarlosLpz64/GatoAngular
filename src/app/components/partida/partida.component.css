@@ -1,0 +1,33 @@
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.ganador{
+    width: 100vw;
+    height: 80vh;
+    background-color: green;
+    font-size: 120px;
+    text-align: center;
+    position: fixed;
+}
+
+.gato {
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casilla {
+    height: 200px;
+    width: 200px;
+    background: rgb(230, 99, 99);
+    background: radial-gradient(circle, rgba(230, 99, 99, 1) 0%, rgba(124, 163, 176, 1) 100%);
+    font-size: 200px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+
+<div *ngIf="ganador != ''" class="ganador">
+    GANADOR {{ganador}}
+
+    <button (click)="regresar()"> Regresar </button>
+</div>
+
+<h1> GATO </h1>
+
+<h3> ID: {{_id}}</h3>
+
+<h3>Turno de {{ turno }}</h3>
+<div class="centrar">
+    <div class="gato">
+        <div class="casilla" (click)="seleccionar(0)"> {{gatito[0].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(1)"> {{gatito[1].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(2)"> {{gatito[2].contenido}}</div>
+
+        <div class="casilla" (click)="seleccionar(3)"> {{gatito[3].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(4)"> {{gatito[4].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(5)"> {{gatito[5].contenido}}</div>
+
+        <div class="casilla" (click)="seleccionar(6)"> {{gatito[6].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(7)"> {{gatito[7].contenido}}</div>
+        <div class="casilla" (click)="seleccionar(8)"> {{gatito[8].contenido}}</div>
+    </div>
+</div>
+
+<h1> {{miPartida | json}}</h1>
